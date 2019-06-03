@@ -30,7 +30,7 @@ def github_init_project(name):
         sleep(0.5)
         os.system('cd {} && git add .'.format(name))
         sleep(0.5)
-        os.system('cd {} && git commit -m initialize project'.format(name))
+        os.system('cd {} && git commit -m "initialize project"'.format(name))
         sleep(0.5)
         os.system('cd {} && git remote add origin {}'.format(name, url))
         sleep(0.5)
